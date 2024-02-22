@@ -5,9 +5,7 @@ import {useDispatch, useSelector } from "react-redux";
 const Nav = () => {
   const dispatch = useDispatch();
   const cartProduct = useSelector(state=>state.cart);
-  const {loggedin} = useSelector(state=>state.user);
-
-  const user = JSON.parse(localStorage.getItem("userdata"))
+  
 
   
   return (
