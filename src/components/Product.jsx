@@ -91,7 +91,7 @@ const Product = () => {
                           })
                         );
                       }}
-                      className="ml-auto mr-2 flex text-white border-0 py-2 px-6 focus:outline-none bg-black rounded"
+                      className="ml-auto mr-2 flex text-white border-0 py-2 px-6 focus:outline-none bg-lime-400	 rounded"
                     >
                       Add To Cart
                     </button>
